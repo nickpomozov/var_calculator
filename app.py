@@ -1,3 +1,7 @@
+# This script creates a Streamlit dashboard for backtesting Value at Risk (VaR) and Expected Shortfall (ES) using historical stock data from Yahoo Finance. It allows users to input a ticker symbol, select a rolling window for training, and visualizes the results along with metrics and a downloadable CSV file for submission.
+# Financial Risk Management Project - Master SEP 2025-26
+
+
 import streamlit as st
 import yfinance as yf
 import pandas as pd
